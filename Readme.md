@@ -33,7 +33,7 @@ The project uses PostgreSQL as the database. Before running the application, ens
 2. The following database parameters configured:
    - Database name: revenue_analysis
    - Username: adminuser
-   - Password: SecurePassword123!
+   - Password: #
    - Host: revenue-analysis-db.postgres.database.azure.com
    - Port: 5432
 
@@ -64,9 +64,9 @@ from data_loader import DataLoader
 # Initialize the loader
 loader = DataLoader({
     'dbname': 'revenue_analysis',
-    'user': 'adminuser',
-    'password': 'SecurePassword123!',
-    'host': 'revenue-analysis-db.postgres.database.azure.com',
+    'user': '#',
+    'password': '#',
+    'host': '#',
     'port': '5432'
 })
 
